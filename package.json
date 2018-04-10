@@ -5,9 +5,8 @@
   "scripts": {
     "build": "ng build --prod --env=test --base-href /evaluation-hynd/",
     "deploy": "ngh --branch=gh-pages --repo=https://github.com/hynd08/evaluation-hynd.git",
-    "publish":"npm run build && npm run deploy"
+    "publish": "npm run build && npm run deploy"
   },
-  
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.0",
